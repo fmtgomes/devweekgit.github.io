@@ -3,11 +3,11 @@
     padding: 0;
     box-sizing: border-box;
     list-style: none;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
 body {
-    background-color: #A5C9CA;
+    background-color: #9BA4B4;
 }
 
 .resume-contents {
@@ -21,13 +21,13 @@ body {
 .left-section {
     grid-column: span 2;
     height: 100%;
-    background-color: #2C3333;
+    background-color: #14274E;
 }
 
 .right-section {
     grid-column: span 5;
     height: 100%;
-    background-color: #395B64;
+    background-color: #394867;
     border-radius: 0px 60px 0px 0px;
 }
 
