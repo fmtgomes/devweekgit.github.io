@@ -1,158 +1,177 @@
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fabio Gomes CV</title>
-    <link rel="stylesheet" href="style.css"> <!-- Adicionar arquivo CSS ao HTML-->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Adicionar arquivo CSS ao HTML-->
     <!-- Para colocar uma fonte, adicionar o PRECONNECT do site, a HREF da fonte e mudar no CSS a FONT-FAMILY-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap"
-        rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
 
-<body>
+  <body>
     <main class="resume-contents">
-        <section class="left-section">
-            <!-- Seçao esquerda, do perfil (image, nome, contato e habilidades)-->
-            <section class="left-section-content">
-                <div class="profile">
-                    <!-- Adicionando a imagem de perfil e nome-->
-                    <img class="profile-image" src="profile-image.jpg" alt="Profile Image">
-                    <p class="name">FÁBIO GOMES</p>
-                    <p class="profession">WEB DEVELOPER</p>
-                </div>
-                <div class="contact-info">
-                    <!-- Adicinando as infos de contato-->
-                    <p class="left-title">Contato</p>
-                    <ul>
-                        <li><i class="fa fa-phone"></i>+55 (18) 99104-0692</li>
-                        <li><i class="fa fa-envelope"></i>fmtgomes@hotmail.com</li>
-                        <li><i class="fa fa-globe"></i>instagram.com/ftartalioni</li>
-                        <li><i class="fa fa-github"></i>github.com/fmtgomes</li>
-                    </ul>
-                </div>
-                <div class="skills">
-                    <!-- Adicionando as infos de habilidades-->
-                    <p class="left-title">Skills</p>
-                    <ul>
-                        <li>
-                            <p>HTML, CSS, Git & GitHub</p>
-                        </li>
-                        <li>
-                            <p>JavaScript, React JS, TypeScript</p>
-                        </li>
-                    </ul>
-                </div>
-            </section>
+      <section class="left-section">
+        <!-- Seçao esquerda, do perfil (image, nome, contato e habilidades)-->
+        <section class="left-section-content">
+          <div class="profile">
+            <!-- Adicionando a imagem de perfil e nome-->
+            <img
+              class="profile-image"
+              src="./108429387.jpg"
+              alt="Profile Image"
+            />
+            <p class="name">FÁBIO GOMES</p>
+            <p class="profession">WEB DEVELOPER</p>
+          </div>
+          <div class="contact-info">
+            <!-- Adicinando as infos de contato-->
+            <p class="left-title">Contato</p>
+            <ul>
+              <li><i class="fa fa-phone"></i>+55 (18) 99104-0692</li>
+              <li><i class="fa fa-envelope"></i>fmtgomes@hotmail.com</li>
+              <li>
+                <i class="fa fa-linkedin-square"></i
+                >linkedin.com/in/fabio-gomes-84611320b/
+              </li>
+              <li><i class="fa fa-globe"></i>instagram.com/ftartalioni</li>
+              <li><i class="fa fa-github"></i>github.com/fmtgomes</li>
+            </ul>
+          </div>
+          <div class="skills">
+            <!-- Adicionando as infos de habilidades-->
+            <p class="left-title">Skills</p>
+            <ul>
+              <li>
+                <p>HTML, CSS, SASS, Bootsstrap</p>
+              </li>
+              <li>
+                <p>Git & GitHub</p>
+              </li>
+              <li>
+                <p>JavaScript, MySQL</p>
+              </li>
+            </ul>
+          </div>
         </section>
-        <section class="right-section">
-            <!-- Seçao direita, das informaçoes completas (sobre mim, experiência, educação e cursos)-->
-            <div class="right-section-contents">
-                <section class="about gap">
-                    <!-- Adicionando o SOBRE MIM-->
-                    <div class="right-title">Sobre Mim</div>
-                    <p class="about-me-contents">
-                        Olá, sou o Fábio. <br>
-                        <br>Arquiteto e Urbanista migrando de carreira para Desenvolvedor Web.
-                        Atualmente me aprimorando em JavaScript. Em 2023 pretendo começar uma segunda graduação na área
-                        de tecnologia. <br>
-                    </p>
-                </section>
-                <section class="experience gap">
-                    <!-- Adicionando minha experiência de trabalhos e períodos do lado esquerdo (class="exp-left") e descrição do lado direito (class="exp-right")-->
-                    <div class="right-title">Experiência</div>
-                    <div class="experience-contents">
-                        <div class="exp-left">
-                            <p class="exp-company-name">MyBox Marcenaria Moderna</p>
-                            <p class="exp-time-period">2021-2022</p>
-                        </div>
-                        <div class="exp-right">
-                            <p class="exp-position">Projetista</p>
-                            <p class="exp-desc">
-                                Atuei como finalizador de projetos, onde desenvolvi com projetos executivos para
-                                marcenaria.
-                            </p>
-                        </div>
-                        <div class="exp-left">
-                            <p class="exp-company-name">FS Arquitetura</p>
-                            <p class="exp-time-period">2019-2021</p>
-                        </div>
-                        <div class="exp-right">
-                            <p class="exp-position">Arquiteto</p>
-                            <p class="exp-desc">
-                                Atuei como arquiteto em escritório em sociedade, onde aprendi a trabalhar em equipe. Os
-                                projetos foram desenvolvidos através dos softwares AutoCad, Revit e Sketchup, em etapas
-                                de
-                                estudo
-                                preliminar, anteprojeto, projeto legal e executivo, abrangendo também apresentações em
-                                3D, e
-                                gestão de obras.
-                            </p>
-                        </div>
-
-                    </div>
-                </section>
-                <section class="education gap">
-                    <!-- Adicionando minha formação e períodos do lado esquerdo (class="education-left") e assunto da formação/descrição do lado direito (class="education-right")-->
-                    <div class="right-title">Formação Acadêmica</div>
-                    <div class="education-contents">
-                        <div class="education-left">
-                            <p class="education-school-name">UniSalesiano</p>
-                            <p class="educationp-time-period">2021~2022</p>
-                        </div>
-                        <div class="education-right">
-                            <p class="education-subject">Engenharia de Segurança do Trabalho</p>
-                            <p class="education-desc">
-                                Pós-graduação em Eng. de Segurança do Trabalho
-                            </p>
-                        </div>
-                        <div class="education-left">
-                            <p class="education-school-name">UniToledo</p>
-                            <p class="educationp-time-period">2012~2019</p>
-                        </div>
-                        <div class="education-right">
-                            <p class="education-subject">Arquitetura e Urbanismo</p>
-                            <p class="education-desc">
-                                Bacharelado em Arquitetura e Urbanismo
-                            </p>
-                        </div>
-                    </div>
-                </section>
-                <section class="awards gap">
-                    <!-- Adicionando meus cursos extracurriculares com nome da institução e períodos do lado esquerdo(class="awards-left") e descrição do lado direito(class="awards-right")-->
-                    <div class="right-title">Cursos</div>
-                    <div class="awards-contents">
-                        <div class="awards-left">
-                            <p class="awards-company-name">Rocketseat</p>
-                            <p class="awards-time-period">Agosto de 2022</p>
-                        </div>
-                        <div class="awards-right">
-                            <p class="awards-name">Discover Front-End</p>
-                            <p class="awards-desc">
-                                Curso sobre front-end envolvendo HTML, CSS, JavaScript, TypeScript, ReactJS e SQL.
-                            </p>
-                        </div>
-                        <div class="awards-left">
-                            <p class="awards-company-name">Escola de Perito</p>
-                            <p class="awards-time-period">Janeiro de 2021</p>
-                        </div>
-                        <div class="awards-right">
-                            <p class="awards-name">Perícia Judicial</p>
-                            <p class="awards-desc">
-                                Curso de especialização onde me tornei perito judicial na área de arquitetura.
-                            </p>
-                        </div>
-                    </div>
-                </section>
+      </section>
+      <section class="right-section">
+        <!-- Seçao direita, das informaçoes completas (sobre mim, experiência, educação e cursos)-->
+        <div class="right-section-contents">
+          <section class="about gap">
+            <!-- Adicionando o SOBRE MIM-->
+            <div class="right-title">Sobre Mim</div>
+            <p class="about-me-contents">
+              Olá, sou o Fábio. <br />
+              <br />Arquiteto e Urbanista migrando de carreira para
+              Desenvolvedor Web. Atualmente me aprimorando em JavaScript. Em
+              2023 pretendo começar uma segunda graduação na área de tecnologia.
+              <br />
+            </p>
+          </section>
+          <section class="experience gap">
+            <!-- Adicionando minha experiência de trabalhos e períodos do lado esquerdo (class="exp-left") e descrição do lado direito (class="exp-right")-->
+            <div class="right-title">Experiência</div>
+            <div class="experience-contents">
+              <div class="exp-left">
+                <p class="exp-company-name">MyBox Marcenaria Moderna</p>
+                <p class="exp-time-period">2021-2022</p>
+              </div>
+              <div class="exp-right">
+                <p class="exp-position">Projetista</p>
+                <p class="exp-desc">
+                  Atuei como finalizador de projetos, onde desenvolvi com
+                  projetos executivos para marcenaria.
+                </p>
+              </div>
+              <div class="exp-left">
+                <p class="exp-company-name">FS Arquitetura</p>
+                <p class="exp-time-period">2019-2021</p>
+              </div>
+              <div class="exp-right">
+                <p class="exp-position">Arquiteto</p>
+                <p class="exp-desc">
+                  Atuei como arquiteto em escritório em sociedade, onde aprendi
+                  a trabalhar em equipe. Os projetos foram desenvolvidos através
+                  dos softwares AutoCad, Revit e Sketchup, em etapas de estudo
+                  preliminar, anteprojeto, projeto legal e executivo, abrangendo
+                  também apresentações em 3D, e gestão de obras.
+                </p>
+              </div>
             </div>
-        </section>
+          </section>
+          <section class="education gap">
+            <!-- Adicionando minha formação e períodos do lado esquerdo (class="education-left") e assunto da formação/descrição do lado direito (class="education-right")-->
+            <div class="right-title">Formação Acadêmica</div>
+            <div class="education-contents">
+              <div class="education-left">
+                <p class="education-school-name">UniSalesiano</p>
+                <p class="educationp-time-period">2021~2022</p>
+              </div>
+              <div class="education-right">
+                <p class="education-subject">
+                  Engenharia de Segurança do Trabalho
+                </p>
+                <p class="education-desc">
+                  Pós-graduação em Eng. de Segurança do Trabalho
+                </p>
+              </div>
+              <div class="education-left">
+                <p class="education-school-name">UniToledo</p>
+                <p class="educationp-time-period">2012~2019</p>
+              </div>
+              <div class="education-right">
+                <p class="education-subject">Arquitetura e Urbanismo</p>
+                <p class="education-desc">
+                  Bacharelado em Arquitetura e Urbanismo
+                </p>
+              </div>
+            </div>
+          </section>
+          <section class="awards gap">
+            <!-- Adicionando meus cursos extracurriculares com nome da institução e períodos do lado esquerdo(class="awards-left") e descrição do lado direito(class="awards-right")-->
+            <div class="right-title">Cursos</div>
+            <div class="awards-contents">
+              <div class="awards-left">
+                <p class="awards-company-name">Rocketseat</p>
+                <p class="awards-time-period">Agosto de 2022</p>
+              </div>
+              <div class="awards-right">
+                <p class="awards-name">Discover Front-End</p>
+                <p class="awards-desc">
+                  Curso sobre front-end envolvendo HTML, CSS, JavaScript,
+                  TypeScript, ReactJS e SQL.
+                </p>
+              </div>
+              <div class="awards-left">
+                <p class="awards-company-name">Escola de Perito</p>
+                <p class="awards-time-period">Janeiro de 2021</p>
+              </div>
+              <div class="awards-right">
+                <p class="awards-name">Perícia Judicial</p>
+                <p class="awards-desc">
+                  Curso de especialização onde me tornei perito judicial na área
+                  de arquitetura.
+                </p>
+              </div>
+            </div>
+          </section>
+        </div>
+      </section>
     </main>
-</body>
-
+  </body>
 </html>
